@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56FAB9F9283B0C0D000A9B96 /* NolaTravelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FAB9F8283B0C0D000A9B96 /* NolaTravelAppApp.swift */; };
+		56FAB9FB283B0C0D000A9B96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FAB9FA283B0C0D000A9B96 /* ContentView.swift */; };
+		56FAB9FD283B0C0F000A9B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FAB9FC283B0C0F000A9B96 /* Assets.xcassets */; };
+		56FABA00283B0C0F000A9B96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FAB9FF283B0C0F000A9B96 /* Preview Assets.xcassets */; };
+		56FABA0A283B0C0F000A9B96 /* NolaTravelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA09283B0C0F000A9B96 /* NolaTravelAppTests.swift */; };
+		56FABA14283B0C0F000A9B96 /* NolaTravelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA13283B0C0F000A9B96 /* NolaTravelAppUITests.swift */; };
+		56FABA16283B0C0F000A9B96 /* NolaTravelAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA15283B0C0F000A9B96 /* NolaTravelAppUITestsLaunchTests.swift */; };
+		56FABA25283B0CEF000A9B96 /* DestinationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA24283B0CEF000A9B96 /* DestinationDetailView.swift */; };
+		56FABA28283B45C0000A9B96 /* TravelerCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA27283B45C0000A9B96 /* TravelerCircles.swift */; };
+		56FABA2B283B46D8000A9B96 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA2A283B46D8000A9B96 /* Extension.swift */; };
+		56FABA2D283DBAE1000A9B96 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA2C283DBAE1000A9B96 /* TabItem.swift */; };
+		56FABA3E284057B1000A9B96 /* PlusJakartaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA30284057B1000A9B96 /* PlusJakartaSans-Light.ttf */; };
+		56FABA3F284057B1000A9B96 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA31284057B1000A9B96 /* PlusJakartaSans-Medium.ttf */; };
+		56FABA40284057B1000A9B96 /* PlusJakartaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA32284057B1000A9B96 /* PlusJakartaSans-BoldItalic.ttf */; };
+		56FABA41284057B1000A9B96 /* PlusJakartaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA33284057B1000A9B96 /* PlusJakartaSans-ExtraLight.ttf */; };
+		56FABA42284057B1000A9B96 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA34284057B1000A9B96 /* PlusJakartaSans-SemiBold.ttf */; };
+		56FABA43284057B1000A9B96 /* PlusJakartaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA35284057B1000A9B96 /* PlusJakartaSans-Italic.ttf */; };
+		56FABA44284057B1000A9B96 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA36284057B1000A9B96 /* PlusJakartaSans-SemiBoldItalic.ttf */; };
+		56FABA45284057B1000A9B96 /* PlusJakartaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA37284057B1000A9B96 /* PlusJakartaSans-LightItalic.ttf */; };
+		56FABA46284057B1000A9B96 /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA38284057B1000A9B96 /* PlusJakartaSans-ExtraBoldItalic.ttf */; };
+		56FABA47284057B1000A9B96 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA39284057B1000A9B96 /* PlusJakartaSans-Bold.ttf */; };
+		56FABA48284057B1000A9B96 /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA3A284057B1000A9B96 /* PlusJakartaSans-Regular.ttf */; };
+		56FABA49284057B1000A9B96 /* PlusJakartaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA3B284057B1000A9B96 /* PlusJakartaSans-MediumItalic.ttf */; };
+		56FABA4A284057B1000A9B96 /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA3C284057B1000A9B96 /* PlusJakartaSans-ExtraLightItalic.ttf */; };
+		56FABA4B284057B1000A9B96 /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56FABA3D284057B1000A9B96 /* PlusJakartaSans-ExtraBold.ttf */; };
+		56FABA4E28405C45000A9B96 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA4D28405C45000A9B96 /* CustomFont.swift */; };
+		56FABA502840804A000A9B96 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA4F2840804A000A9B96 /* SampleData.swift */; };
+		56FABA52284081A8000A9B96 /* ReviewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FABA51284081A8000A9B96 /* ReviewItem.swift */; };
+		56FABA552841EF2F000A9B96 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 56FABA542841EF2F000A9B96 /* WaterfallGrid */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56FABA06283B0C0F000A9B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56FAB9ED283B0C0C000A9B96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56FAB9F4283B0C0D000A9B96;
+			remoteInfo = NolaTravelApp;
+		};
+		56FABA10283B0C0F000A9B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56FAB9ED283B0C0C000A9B96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56FAB9F4283B0C0D000A9B96;
+			remoteInfo = NolaTravelApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56FAB9F5283B0C0D000A9B96 /* NolaTravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NolaTravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FAB9F8283B0C0D000A9B96 /* NolaTravelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NolaTravelAppApp.swift; sourceTree = "<group>"; };
+		56FAB9FA283B0C0D000A9B96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56FAB9FC283B0C0F000A9B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56FAB9FF283B0C0F000A9B96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56FABA05283B0C0F000A9B96 /* NolaTravelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NolaTravelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FABA09283B0C0F000A9B96 /* NolaTravelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NolaTravelAppTests.swift; sourceTree = "<group>"; };
+		56FABA0F283B0C0F000A9B96 /* NolaTravelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NolaTravelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FABA13283B0C0F000A9B96 /* NolaTravelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NolaTravelAppUITests.swift; sourceTree = "<group>"; };
+		56FABA15283B0C0F000A9B96 /* NolaTravelAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NolaTravelAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56FABA24283B0CEF000A9B96 /* DestinationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDetailView.swift; sourceTree = "<group>"; };
+		56FABA27283B45C0000A9B96 /* TravelerCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelerCircles.swift; sourceTree = "<group>"; };
+		56FABA2A283B46D8000A9B96 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		56FABA2C283DBAE1000A9B96 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		56FABA30284057B1000A9B96 /* PlusJakartaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Light.ttf"; sourceTree = "<group>"; };
+		56FABA31284057B1000A9B96 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		56FABA32284057B1000A9B96 /* PlusJakartaSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		56FABA33284057B1000A9B96 /* PlusJakartaSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		56FABA34284057B1000A9B96 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		56FABA35284057B1000A9B96 /* PlusJakartaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Italic.ttf"; sourceTree = "<group>"; };
+		56FABA36284057B1000A9B96 /* PlusJakartaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		56FABA37284057B1000A9B96 /* PlusJakartaSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		56FABA38284057B1000A9B96 /* PlusJakartaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		56FABA39284057B1000A9B96 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
+		56FABA3A284057B1000A9B96 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
+		56FABA3B284057B1000A9B96 /* PlusJakartaSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		56FABA3C284057B1000A9B96 /* PlusJakartaSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		56FABA3D284057B1000A9B96 /* PlusJakartaSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		56FABA4C28405864000A9B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		56FABA4D28405C45000A9B96 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		56FABA4F2840804A000A9B96 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		56FABA51284081A8000A9B96 /* ReviewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56FAB9F2283B0C0D000A9B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FABA552841EF2F000A9B96 /* WaterfallGrid in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FABA02283B0C0F000A9B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FABA0C283B0C0F000A9B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56FAB9EC283B0C0C000A9B96 = {
+			isa = PBXGroup;
+			children = (
+				56FAB9F7283B0C0D000A9B96 /* NolaTravelApp */,
+				56FABA08283B0C0F000A9B96 /* NolaTravelAppTests */,
+				56FABA12283B0C0F000A9B96 /* NolaTravelAppUITests */,
+				56FAB9F6283B0C0D000A9B96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56FAB9F6283B0C0D000A9B96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56FAB9F5283B0C0D000A9B96 /* NolaTravelApp.app */,
+				56FABA05283B0C0F000A9B96 /* NolaTravelAppTests.xctest */,
+				56FABA0F283B0C0F000A9B96 /* NolaTravelAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56FAB9F7283B0C0D000A9B96 /* NolaTravelApp */ = {
+			isa = PBXGroup;
+			children = (
+				56FABA4C28405864000A9B96 /* Info.plist */,
+				56FABA2E2840576F000A9B96 /* Resources */,
+				56FABA29283B46CC000A9B96 /* Helper */,
+				56FABA26283B4599000A9B96 /* Component */,
+				56FABA22283B0C84000A9B96 /* View */,
+				56FAB9F8283B0C0D000A9B96 /* NolaTravelAppApp.swift */,
+				56FAB9FA283B0C0D000A9B96 /* ContentView.swift */,
+				56FAB9FC283B0C0F000A9B96 /* Assets.xcassets */,
+				56FAB9FE283B0C0F000A9B96 /* Preview Content */,
+			);
+			path = NolaTravelApp;
+			sourceTree = "<group>";
+		};
+		56FAB9FE283B0C0F000A9B96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56FAB9FF283B0C0F000A9B96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56FABA08283B0C0F000A9B96 /* NolaTravelAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				56FABA09283B0C0F000A9B96 /* NolaTravelAppTests.swift */,
+			);
+			path = NolaTravelAppTests;
+			sourceTree = "<group>";
+		};
+		56FABA12283B0C0F000A9B96 /* NolaTravelAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56FABA13283B0C0F000A9B96 /* NolaTravelAppUITests.swift */,
+				56FABA15283B0C0F000A9B96 /* NolaTravelAppUITestsLaunchTests.swift */,
+			);
+			path = NolaTravelAppUITests;
+			sourceTree = "<group>";
+		};
+		56FABA22283B0C84000A9B96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56FABA23283B0CB8000A9B96 /* DestinationDetail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56FABA23283B0CB8000A9B96 /* DestinationDetail */ = {
+			isa = PBXGroup;
+			children = (
+				56FABA24283B0CEF000A9B96 /* DestinationDetailView.swift */,
+			);
+			path = DestinationDetail;
+			sourceTree = "<group>";
+		};
+		56FABA26283B4599000A9B96 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				56FABA27283B45C0000A9B96 /* TravelerCircles.swift */,
+				56FABA2C283DBAE1000A9B96 /* TabItem.swift */,
+				56FABA51284081A8000A9B96 /* ReviewItem.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		56FABA29283B46CC000A9B96 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				56FABA2A283B46D8000A9B96 /* Extension.swift */,
+				56FABA4D28405C45000A9B96 /* CustomFont.swift */,
+				56FABA4F2840804A000A9B96 /* SampleData.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		56FABA2E2840576F000A9B96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56FABA2F2840577B000A9B96 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		56FABA2F2840577B000A9B96 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				56FABA39284057B1000A9B96 /* PlusJakartaSans-Bold.ttf */,
+				56FABA32284057B1000A9B96 /* PlusJakartaSans-BoldItalic.ttf */,
+				56FABA3D284057B1000A9B96 /* PlusJakartaSans-ExtraBold.ttf */,
+				56FABA38284057B1000A9B96 /* PlusJakartaSans-ExtraBoldItalic.ttf */,
+				56FABA33284057B1000A9B96 /* PlusJakartaSans-ExtraLight.ttf */,
+				56FABA3C284057B1000A9B96 /* PlusJakartaSans-ExtraLightItalic.ttf */,
+				56FABA35284057B1000A9B96 /* PlusJakartaSans-Italic.ttf */,
+				56FABA30284057B1000A9B96 /* PlusJakartaSans-Light.ttf */,
+				56FABA37284057B1000A9B96 /* PlusJakartaSans-LightItalic.ttf */,
+				56FABA31284057B1000A9B96 /* PlusJakartaSans-Medium.ttf */,
+				56FABA3B284057B1000A9B96 /* PlusJakartaSans-MediumItalic.ttf */,
+				56FABA3A284057B1000A9B96 /* PlusJakartaSans-Regular.ttf */,
+				56FABA34284057B1000A9B96 /* PlusJakartaSans-SemiBold.ttf */,
+				56FABA36284057B1000A9B96 /* PlusJakartaSans-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56FAB9F4283B0C0D000A9B96 /* NolaTravelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56FABA19283B0C0F000A9B96 /* Build configuration list for PBXNativeTarget "NolaTravelApp" */;
+			buildPhases = (
+				56FAB9F1283B0C0D000A9B96 /* Sources */,
+				56FAB9F2283B0C0D000A9B96 /* Frameworks */,
+				56FAB9F3283B0C0D000A9B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NolaTravelApp;
+			packageProductDependencies = (
+				56FABA542841EF2F000A9B96 /* WaterfallGrid */,
+			);
+			productName = NolaTravelApp;
+			productReference = 56FAB9F5283B0C0D000A9B96 /* NolaTravelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56FABA04283B0C0F000A9B96 /* NolaTravelAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56FABA1C283B0C0F000A9B96 /* Build configuration list for PBXNativeTarget "NolaTravelAppTests" */;
+			buildPhases = (
+				56FABA01283B0C0F000A9B96 /* Sources */,
+				56FABA02283B0C0F000A9B96 /* Frameworks */,
+				56FABA03283B0C0F000A9B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56FABA07283B0C0F000A9B96 /* PBXTargetDependency */,
+			);
+			name = NolaTravelAppTests;
+			productName = NolaTravelAppTests;
+			productReference = 56FABA05283B0C0F000A9B96 /* NolaTravelAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56FABA0E283B0C0F000A9B96 /* NolaTravelAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56FABA1F283B0C0F000A9B96 /* Build configuration list for PBXNativeTarget "NolaTravelAppUITests" */;
+			buildPhases = (
+				56FABA0B283B0C0F000A9B96 /* Sources */,
+				56FABA0C283B0C0F000A9B96 /* Frameworks */,
+				56FABA0D283B0C0F000A9B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56FABA11283B0C0F000A9B96 /* PBXTargetDependency */,
+			);
+			name = NolaTravelAppUITests;
+			productName = NolaTravelAppUITests;
+			productReference = 56FABA0F283B0C0F000A9B96 /* NolaTravelAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56FAB9ED283B0C0C000A9B96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					56FAB9F4283B0C0D000A9B96 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					56FABA04283B0C0F000A9B96 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 56FAB9F4283B0C0D000A9B96;
+					};
+					56FABA0E283B0C0F000A9B96 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 56FAB9F4283B0C0D000A9B96;
+					};
+				};
+			};
+			buildConfigurationList = 56FAB9F0283B0C0C000A9B96 /* Build configuration list for PBXProject "NolaTravelApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56FAB9EC283B0C0C000A9B96;
+			packageReferences = (
+				56FABA532841EF2F000A9B96 /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
+			);
+			productRefGroup = 56FAB9F6283B0C0D000A9B96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56FAB9F4283B0C0D000A9B96 /* NolaTravelApp */,
+				56FABA04283B0C0F000A9B96 /* NolaTravelAppTests */,
+				56FABA0E283B0C0F000A9B96 /* NolaTravelAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56FAB9F3283B0C0D000A9B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FABA4A284057B1000A9B96 /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */,
+				56FABA49284057B1000A9B96 /* PlusJakartaSans-MediumItalic.ttf in Resources */,
+				56FABA4B284057B1000A9B96 /* PlusJakartaSans-ExtraBold.ttf in Resources */,
+				56FABA43284057B1000A9B96 /* PlusJakartaSans-Italic.ttf in Resources */,
+				56FABA45284057B1000A9B96 /* PlusJakartaSans-LightItalic.ttf in Resources */,
+				56FABA00283B0C0F000A9B96 /* Preview Assets.xcassets in Resources */,
+				56FABA3E284057B1000A9B96 /* PlusJakartaSans-Light.ttf in Resources */,
+				56FAB9FD283B0C0F000A9B96 /* Assets.xcassets in Resources */,
+				56FABA3F284057B1000A9B96 /* PlusJakartaSans-Medium.ttf in Resources */,
+				56FABA42284057B1000A9B96 /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				56FABA44284057B1000A9B96 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */,
+				56FABA46284057B1000A9B96 /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */,
+				56FABA47284057B1000A9B96 /* PlusJakartaSans-Bold.ttf in Resources */,
+				56FABA41284057B1000A9B96 /* PlusJakartaSans-ExtraLight.ttf in Resources */,
+				56FABA40284057B1000A9B96 /* PlusJakartaSans-BoldItalic.ttf in Resources */,
+				56FABA48284057B1000A9B96 /* PlusJakartaSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FABA03283B0C0F000A9B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FABA0D283B0C0F000A9B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56FAB9F1283B0C0D000A9B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FABA4E28405C45000A9B96 /* CustomFont.swift in Sources */,
+				56FABA2B283B46D8000A9B96 /* Extension.swift in Sources */,
+				56FABA25283B0CEF000A9B96 /* DestinationDetailView.swift in Sources */,
+				56FABA52284081A8000A9B96 /* ReviewItem.swift in Sources */,
+				56FABA2D283DBAE1000A9B96 /* TabItem.swift in Sources */,
+				56FAB9FB283B0C0D000A9B96 /* ContentView.swift in Sources */,
+				56FABA28283B45C0000A9B96 /* TravelerCircles.swift in Sources */,
+				56FAB9F9283B0C0D000A9B96 /* NolaTravelAppApp.swift in Sources */,
+				56FABA502840804A000A9B96 /* SampleData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FABA01283B0C0F000A9B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FABA0A283B0C0F000A9B96 /* NolaTravelAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FABA0B283B0C0F000A9B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FABA16283B0C0F000A9B96 /* NolaTravelAppUITestsLaunchTests.swift in Sources */,
+				56FABA14283B0C0F000A9B96 /* NolaTravelAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56FABA07283B0C0F000A9B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56FAB9F4283B0C0D000A9B96 /* NolaTravelApp */;
+			targetProxy = 56FABA06283B0C0F000A9B96 /* PBXContainerItemProxy */;
+		};
+		56FABA11283B0C0F000A9B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56FAB9F4283B0C0D000A9B96 /* NolaTravelApp */;
+			targetProxy = 56FABA10283B0C0F000A9B96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56FABA17283B0C0F000A9B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56FABA18283B0C0F000A9B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56FABA1A283B0C0F000A9B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NolaTravelApp/Preview Content\"";
+				DEVELOPMENT_TEAM = T94DLAXF48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NolaTravelApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.altdigital.NolaTravelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56FABA1B283B0C0F000A9B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NolaTravelApp/Preview Content\"";
+				DEVELOPMENT_TEAM = T94DLAXF48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NolaTravelApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.altdigital.NolaTravelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56FABA1D283B0C0F000A9B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T94DLAXF48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.altdigital.NolaTravelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NolaTravelApp.app/NolaTravelApp";
+			};
+			name = Debug;
+		};
+		56FABA1E283B0C0F000A9B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T94DLAXF48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.altdigital.NolaTravelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NolaTravelApp.app/NolaTravelApp";
+			};
+			name = Release;
+		};
+		56FABA20283B0C0F000A9B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T94DLAXF48;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.altdigital.NolaTravelAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NolaTravelApp;
+			};
+			name = Debug;
+		};
+		56FABA21283B0C0F000A9B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T94DLAXF48;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.altdigital.NolaTravelAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NolaTravelApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56FAB9F0283B0C0C000A9B96 /* Build configuration list for PBXProject "NolaTravelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FABA17283B0C0F000A9B96 /* Debug */,
+				56FABA18283B0C0F000A9B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56FABA19283B0C0F000A9B96 /* Build configuration list for PBXNativeTarget "NolaTravelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FABA1A283B0C0F000A9B96 /* Debug */,
+				56FABA1B283B0C0F000A9B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56FABA1C283B0C0F000A9B96 /* Build configuration list for PBXNativeTarget "NolaTravelAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FABA1D283B0C0F000A9B96 /* Debug */,
+				56FABA1E283B0C0F000A9B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56FABA1F283B0C0F000A9B96 /* Build configuration list for PBXNativeTarget "NolaTravelAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FABA20283B0C0F000A9B96 /* Debug */,
+				56FABA21283B0C0F000A9B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		56FABA532841EF2F000A9B96 /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56FABA542841EF2F000A9B96 /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56FABA532841EF2F000A9B96 /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 56FAB9ED283B0C0C000A9B96 /* Project object */;
+}

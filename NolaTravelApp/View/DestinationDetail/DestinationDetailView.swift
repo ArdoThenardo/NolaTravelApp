@@ -20,19 +20,29 @@ struct DestinationDetailView: View {
                 // Nav Bar
                 VStack(alignment: .leading) {
                     HStack(alignment: .center) {
-                        Image(systemName: "arrow.backward")
-                            .resizable()
-                            .frame(width: 16, height: 16)
-                            .aspectRatio(contentMode: .fit)
+                        Button {
+                            
+                        } label: {
+                            Image(systemName: "arrow.backward")
+                                .resizable()
+                                .foregroundColor(.black)
+                                .frame(width: 16, height: 16)
+                                .aspectRatio(contentMode: .fit)
+                        }
                         
                         Spacer()
                         
-                        Image(systemName: "square.and.arrow.up")
-                            .resizable()
-                            .frame(width: 16, height: 20)
-                            .aspectRatio(contentMode: .fit)
+                        Button {
+                            
+                        } label: {
+                            Image(systemName: "square.and.arrow.up")
+                                .resizable()
+                                .foregroundColor(.black)
+                                .frame(width: 16, height: 20)
+                                .aspectRatio(contentMode: .fit)
+                        }
                     }
-                    .padding(.horizontal)
+                    .padding(.horizontal, 18)
                     .padding(.top, 5)
                     
                     Spacer()
@@ -43,6 +53,7 @@ struct DestinationDetailView: View {
                         .opacity(extendMenuTab ? 0 : 1)
                 }
                 .frame(height: 35)
+                .background(.white)
                 
                 List {
                     // Image Cover Header
@@ -109,6 +120,7 @@ struct DestinationDetailView: View {
                     .onDisappear {
                         extendMenuTab = true
                     }
+                    .listRowBackground(Color.white)
                     
                     // Tab Menu & Sub Menu
                     Section {
@@ -131,6 +143,7 @@ struct DestinationDetailView: View {
                                                 .foregroundColor(.gray)
                                             Text("3 days")
                                                 .font(.custom(CustomFont.mainBold, size: 16))
+                                                .foregroundColor(.black)
                                         }
                                     }
                                     
@@ -150,6 +163,7 @@ struct DestinationDetailView: View {
                                                 .foregroundColor(.gray)
                                             Text("Nintendo, Japan")
                                                 .font(.custom(CustomFont.mainBold, size: 16))
+                                                .foregroundColor(.black)
                                         }
                                     }
                                 }
@@ -157,11 +171,13 @@ struct DestinationDetailView: View {
                                 
                                 Text(SampleData.sampleLongText)
                                     .font(.body)
+                                    .foregroundColor(.black)
                                     .lineSpacing(5)
                                     .padding(.bottom, 120)
                             }
                             .padding(.top)
                             .listRowSeparator(.hidden)
+                            .background(.white)
                         } else if selectedMenuIndex == 1 { // Review
                             LazyVStack(alignment: .leading, spacing: 20) {
                                 ForEach((0..<6), id: \.self) { _ in
@@ -171,6 +187,7 @@ struct DestinationDetailView: View {
                             .padding(.top, 28)
                             .padding(.bottom, 120)
                             .listRowSeparator(.hidden)
+                            .background(.white)
                         } else if selectedMenuIndex == 2 { // Photo
                             WaterfallGrid((0..<8), id: \.self) { element in
                                 Image("beach_\(element + 1)")
@@ -181,10 +198,11 @@ struct DestinationDetailView: View {
                             .padding(.top, 28)
                             .padding(.bottom, 120)
                             .listRowSeparator(.hidden)
+                            .background(.white)
                         }
                     } header: {
                         // Tab Menu
-                        VStack(alignment: .leading) {
+                        VStack(alignment: .leading, spacing: 0) {
                             HStack {
                                 ForEach(Array(menus.enumerated()), id: \.offset) { index, menu in
                                     TabItem(name: menu, isSelected: index == selectedMenuIndex ? true : false)
@@ -196,15 +214,23 @@ struct DestinationDetailView: View {
                             }
                             .padding(.horizontal, 16)
                             .padding(.bottom, extendMenuTab ? 10 : 0)
+                            
+                            Rectangle()
+                                .fill(.gray.opacity(0.2))
+                                .frame(height: 1)
+                                .opacity(extendMenuTab ? 1 : 0)
                         }
                         .frame(maxWidth: .infinity)
                         .listRowInsets(EdgeInsets())
                         .background(.white)
                     }
                     .listRowInsets(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))
+                    .background(.white)
+                    .listRowBackground(Color.white)
                 }
                 .listStyle(.plain)
                 .edgesIgnoringSafeArea(.top)
+                .background(.white)
             }
             
             // Book Now Button

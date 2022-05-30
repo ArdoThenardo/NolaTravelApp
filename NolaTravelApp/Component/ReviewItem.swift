@@ -20,6 +20,7 @@ struct ReviewItem: View {
                     
                     Text("User\(Int.random(in: 100..<999))")
                         .font(.custom(CustomFont.mainBold, size: 16))
+                        .foregroundColor(.black)
                 }
                 
                 Spacer()
@@ -31,12 +32,14 @@ struct ReviewItem: View {
                     
                     Text("\(String(format: "%.1f", Float.random(in: 3...5)))")
                         .font(.custom(CustomFont.mainBold, size: 18))
+                        .foregroundColor(.black)
                 }
             }
             
             VStack(alignment: .leading, spacing: 18) {
                 Text(SampleData.sampleShortText)
                     .font(.custom(CustomFont.mainRegular, size: 16))
+                    .foregroundColor(.black)
                     .lineSpacing(5)
                 
                 Text("December 2022")
